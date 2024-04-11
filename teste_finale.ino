@@ -11,7 +11,7 @@
 #define DATA_PIN 14                 // Définition du numéro de broche de données pour FastLED
 
 CRGB leds[NUM_LEDS];                // Déclaration d'un tableau de LEDs
-
+// salut
 PCF8575 pcf8575(0x20);              // Création d'une instance de PCF8575 avec l'adresse I2C 0x20
 
 void setup() {
